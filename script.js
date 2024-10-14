@@ -249,8 +249,55 @@ GOOD LUCK 😀
 
 // console.dir(booker);
 
-console.log(anyArr([1, 2, 2, 3, 4], [2, 4, 4, 5, 6], [5, 1, 2, 3, 6, 6]));
+// console.log(anyArr([1, 2, 2, 3, 4], [2, 4, 4, 5, 6], [5, 1, 2, 3, 6, 6]));
 
-function anyArr(...arr) {
-  return arr.flat().filter((item, index) => arr.indexOf(item) === index);
-}
+// function anyArr(...arr) {
+//   return arr.flat().filter((item, index) => arr.indexOf(item) === index);
+// }
+
+// let f;
+
+// const g = function () {
+//   const a = 23;
+//   f = function () {
+//     console.log(a * 2);
+//   };
+// };
+
+// const h = function () {
+//   const b = 777;
+//   f = function () {
+//     console.log(b * 2);
+//   };
+// };
+
+// g();
+// f();
+// console.dir(f);
+// h();
+// f();
+
+// console.dir(f);
+
+// //Example 2 (Timer)
+
+// const boardPassengers = function (n, wait) {
+//   const perGroup = n / 3;
+//   setTimeout(() => {
+//     console.log(`We are now borading all ${n} passengers`);
+//     console.log(`There are 3 groups, each with ${perGroup} passengers`);
+//   }, wait * 1000);
+//   console.log(`Will start boarding in ${wait} seconds`);
+// };
+
+// const perGroup = 1000;
+// boardPassengers(180, 3);
+
+// (function () {
+//   const header = document.querySelector('h1');
+//   header.style.color = 'red';
+//   document.addEventListener('click', function () {
+//     header.style.color = header.style.color === 'red' ? 'blue' : 'red';
+//     console.dir(header);
+//   });
+// })();
